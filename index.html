@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Comparativa de Candidatos a Presidente</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #444;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
+
+    .candidate-card {
+      width: 300px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      padding: 20px;
+    }
+
+    .candidate-card h2 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .candidate-card p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+
+    .candidate-card .president-img {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .candidate-card .president-img img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .candidate-card .party-logo {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .candidate-card .party-logo img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+    }
+
+    .candidate-card .proposals {
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .candidate-card .proposals h3 {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .candidate-card .proposals ul {
+      padding-left: 20px;
+      list-style-type: disc;
+      text-align: center;
+    }
+
+    .candidate-card .proposals li {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 5px;
+      text-align: left;
+    }
+
+    .candidate-card .news-button {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .candidate-card .news-button a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #555;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .candidate-card .news-button a:hover {
+      background-color: #333;
+    }
+
+    @media screen and (max-width: 600px) {
+      .candidate-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Comparativa de Candidatos a Presidente</h1>
+  <div class="container" id="candidate-container">
+    <div class="candidate-card">
+      <div class="president-img">
+        <img src="https://static.vecteezy.com/system/resources/previews/002/476/002/non_2x/human-figure-silhouette-with-sun-line-and-fill-style-icon-free-vector.jpg" alt="Candidato 1">
+      </div>
+      <h2>Candidato 1</h2>
+      <div class="party-logo">
+        <img src="https://images.emojiterra.com/twitter/512px/1f1e6-1f1f7.png" alt="Logo Partido 1">
+      </div>
+      <p><span>Vicepresidente:</span> Vicepresidente 1</p>
+      <p><span>Título Universitario:</span> Título 1</p>
+      <p><span>Partido:</span> Partido 1</p>
+      <div class="proposals">
+        <h3>Propuestas:</h3>
+        <ul>
+          <li>Propuesta 1</li>
+          <li>Propuesta 2</li>
+          <li>Propuesta 3</li>
+        </ul>
+      </div>
+      <div class="news-button">
+        <a href="https://www.google.com/search?q=Candidato+1+noticias" target="_blank">Ver Noticias</a>
+      </div>
+    </div>
+
+    <div class="candidate-card">
+      <div class="president-img">
+        <img src="https://static.vecteezy.com/system/resources/previews/002/476/002/non_2x/human-figure-silhouette-with-sun-line-and-fill-style-icon-free-vector.jpg" alt="Candidato 2">
+      </div>
+      <h2>Candidato 2</h2>
+      <div class="party-logo">
+        <img src="https://images.emojiterra.com/twitter/512px/1f1e6-1f1f7.png" alt="Logo Partido 2">
+      </div>
+      <p><span>Vicepresidente:</span> Vicepresidente 2</p>
+      <p><span>Título Universitario:</span> Título 2</p>
+      <p><span>Partido:</span> Partido 2</p>
+      <div class="proposals">
+        <h3>Propuestas:</h3>
+        <ul>
+          <li>Propuesta 1</li>
+          <li>Propuesta 2</li>
+          <li>Propuesta 3</li>
+        </ul>
+      </div>
+      <div class="news-button">
+        <a href="https://www.google.com/search?q=Candidato+2+noticias" target="_blank">Ver Noticias</a>
+      </div>
+    </div>
+
+    <div class="candidate-card">
+      <div class="president-img">
+        <img src="https://static.vecteezy.com/system/resources/previews/002/476/002/non_2x/human-figure-silhouette-with-sun-line-and-fill-style-icon-free-vector.jpg" alt="Candidato 3">
+      </div>
+      <h2>Candidato 3</h2>
+      <div class="party-logo">
+        <img src="https://images.emojiterra.com/twitter/512px/1f1e6-1f1f7.png" alt="Logo Partido 3">
+      </div>
+      <p><span>Vicepresidente:</span> Vicepresidente 3</p>
+      <p><span>Título Universitario:</span> Título 3</p>
+      <p><span>Partido:</span> Partido 3</p>
+      <div class="proposals">
+        <h3>Propuestas:</h3>
+        <ul>
+          <li>Propuesta 1</li>
+          <li>Propuesta 2</li>
+          <li>Propuesta 3</li>
+        </ul>
+      </div>
+      <div class="news-button">
+        <a href="https://www.google.com/search?q=Candidato+3+noticias" target="_blank">Ver Noticias</a>
+      </div>
+    </div>
+
+    <div class="candidate-card">
+      <div class="president-img">
+        <img src="https://static.vecteezy.com/system/resources/previews/002/476/002/non_2x/human-figure-silhouette-with-sun-line-and-fill-style-icon-free-vector.jpg" alt="Candidato 4">
+      </div>
+      <h2>Candidato 4</h2>
+      <div class="party-logo">
+        <img src="https://images.emojiterra.com/twitter/512px/1f1e6-1f1f7.png" alt="Logo Partido 4">
+      </div>
+      <p><span>Vicepresidente:</span> Vicepresidente 4</p>
+      <p><span>Título Universitario:</span> Título 4</p>
+      <p><span>Partido:</span> Partido 4</p>
+      <div class="proposals">
+        <h3>Propuestas:</h3>
+        <ul>
+          <li>Propuesta 1</li>
+          <li>Propuesta 2</li>
+          <li>Propuesta 3</li>
+        </ul>
+      </div>
+      <div class="news-button">
+        <a href="https://www.google.com/search?q=Candidato+4+noticias" target="_blank">Ver Noticias</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function shuffleCandidates() {
+      var candidateContainer = document.getElementById("candidate-container");
+      for (var i = candidateContainer.children.length; i >= 0; i--) {
+        candidateContainer.appendChild(candidateContainer.children[Math.random() * i | 0]);
+      }
+    }
+
+    shuffleCandidates();
+  </script>
+</body>
+</html>
